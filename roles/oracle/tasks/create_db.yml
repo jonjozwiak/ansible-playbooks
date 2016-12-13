@@ -6,7 +6,7 @@
 
 - name: create a new database config params file
   expect:
-    command: oakcli create db_config_params -conf { database_name }}-expect.out.out
+    command: oakcli create db_config_params -conf { database_name }}-expect.out
     responses:
       'Database Block Size': '2'
       'Database Language': '1'
