@@ -1,0 +1,8 @@
+db_blk_siz_arr: 8192
+db_lang: AMERICAN
+db_char_set: UTF8
+db_teritory: AMERICA
+component_languages: en
+nls_char_set: AL16UTF16
+
+database_name: rhtestdb01

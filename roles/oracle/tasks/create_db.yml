@@ -1,1 +1,15 @@
 ---
+#- name: copy database config params file
+#  template: src=db_config.dbconf.j2 dest=/opt/oracle/oak/install/dbconf/{{ database_name }}.out.dbconf
+#  tags:
+#  - create-database
+
+- name: create a new database config params file
+  expect:
+    command: oakcli create db_config_params -conf { database_name }}-expect.out.out
+    responses:
+      'Database Block Size': '2'
+      'Database Language': '1'
+      'Database Characterset': '87'
+      'Database Territory': '1'
+      'Component Language': '1'
