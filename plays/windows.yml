@@ -1,0 +1,12 @@
+---
+- hosts: windows
+
+  tasks:
+    - name: run ipconfig
+      raw: ipconfig
+      register: ipconfig
+
+    - debug: var=ipconfig
+
+    - name: run test script
+      script: files/helloworld.ps1

@@ -1,0 +1,3 @@
+---
+- name: execute scheduled task
+  script: execute_scheduled_task.ps1

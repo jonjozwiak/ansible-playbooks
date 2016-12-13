@@ -1,0 +1,6 @@
+# overwrite these variables with hosts or extra variables
+mssql:
+  login_host: ~
+  login_user: ~
+  login_password: ~
+  login_port: ~

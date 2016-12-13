@@ -1,0 +1,3 @@
+---
+- name: restore db
+  script: restore_db.ps1

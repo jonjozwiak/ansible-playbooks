@@ -1,0 +1,3 @@
+---
+- name: backup db
+  script: backup_db.ps1

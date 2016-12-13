@@ -1,0 +1,6 @@
+---
+- include: install_server.yml
+- include: install_tcserver_instance.yml
+- include: install_webserver_instance.yml
+- include: deploy_app.yml
+- include: validate_app.yml
