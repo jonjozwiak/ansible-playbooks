@@ -4,3 +4,10 @@ mssql:
   login_user: ~
   login_password: ~
   login_port: ~
+  instance_name: ~
+  db_name: ~
+  db_user: ~
+  db_password: ~
+  db_role: ~
+  job_name: ~
+  sql_query: ~

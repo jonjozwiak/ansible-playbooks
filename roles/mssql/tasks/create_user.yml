@@ -1,3 +1,4 @@
 ---
-- name: create db
-  script: create_db.ps1
+- name: create user
+  script: create_user_on_db.ps1 -instanceName {{ mssql.instance_name }} -dbUser {{ mssql.db_user }} -dbPassword {{ mssql.db_password }} -dbRole {{ mssql.db_role }}
+

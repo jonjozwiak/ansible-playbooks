@@ -1,3 +1,4 @@
 ---
 - name: execute scheduled task
-  script: execute_scheduled_task.ps1
+  script: execute_scheduled_task.ps1 -instanceName {{ mssql.instance_name }} -dbName {{ mssql.db_name }} -jobName {{ mssql.job_name }}
+

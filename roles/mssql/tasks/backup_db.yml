@@ -1,3 +1,4 @@
 ---
 - name: backup db
-  script: backup_db.ps1
+  script: backup_db.ps1 -instanceName {{ mssql.instance_name }} -dbName {{ mssql.db_name }}
+
