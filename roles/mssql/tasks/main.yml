@@ -1,7 +1,9 @@
 ---
 - include: create_db.yml
 - include: create_user.yml
-- include: sql_script.yml
+- include: run_sql_command_on_db.yml
+- include: run_sql_command_on_instance.yml
 - include: backup_db.yml
-- include: restore_db.yml
+- include: restore_latest_db.yml
 - include: execute_scheduled_task.yml
+

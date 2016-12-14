@@ -1,3 +1,0 @@
----
-- name: run sql script
-  script: run_sql_script.ps1

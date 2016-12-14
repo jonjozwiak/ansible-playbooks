@@ -1,0 +1,4 @@
+---
+- name: restore db from latest backup
+  script: restore_latest_db.ps1 -instanceName {{ mssql.instance_name }} -db_name {{ mssql.db_name }} 
+
